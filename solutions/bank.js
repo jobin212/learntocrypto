@@ -1,6 +1,6 @@
 var jsonStream = require('duplex-json-stream')
 var net = require('net')
-var sodium = require('sodium-universal')
+var sodium = require('sodium-native')
 
 var siginfo = require('siginfo')
 
